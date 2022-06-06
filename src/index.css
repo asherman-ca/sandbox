@@ -36,10 +36,16 @@ a {
 }
 
 .container {
-	min-height: calc(100vh - 50px);
-	margin-top: 50px;
-
 	display: flex;
+	flex-grow: 1;
+	/* min-height: calc(100vh - 50px); */
+	/* margin-top: 50px; */
+}
+
+#root {
+	min-height: 100vh;
+	display: flex;
+	flex-direction: column;
 }
 
 /* #root {

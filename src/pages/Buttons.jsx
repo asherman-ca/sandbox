@@ -1,10 +1,11 @@
+import SlideButton from '../components/SlideButton';
+
 const Buttons = () => {
 	return (
 		<div className='container'>
 			<div className='buttons'>
-				<div className='button'>
-					Button Text
-					<div className='button-bg'></div>
+				<div className='section'>
+					<SlideButton>Button Text</SlideButton>
 				</div>
 			</div>
 		</div>

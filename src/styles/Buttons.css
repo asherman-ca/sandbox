@@ -4,7 +4,13 @@
 	margin: 0 auto;
 
 	display: flex;
+	justify-content: center;
 	align-items: flex-start;
+}
+
+.buttons .section {
+	display: flex;
+	flex-direction: column;
 }
 
 .button {
@@ -14,7 +20,10 @@
 	cursor: pointer;
 	padding: 0.75rem;
 	color: black;
-	border: 2px solid black;
+	border: 2.5px solid black;
+	border-radius: 0.25rem;
+
+	font-weight: 500;
 }
 
 .button-bg {
@@ -48,7 +57,7 @@
 		width: 100%;
 	}
 	100% {
-		visibility: hidden;
+		/* visibility: hidden; */
 		width: 0%;
 	}
 }

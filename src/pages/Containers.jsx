@@ -12,6 +12,17 @@ const Containers = () => {
 						lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum
 					</p>
 				</div>
+
+				<div className='accord'>
+					<input type='checkbox' defaultChecked />
+					<i></i>
+					<h2>Words Title</h2>
+					<p>
+						lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem
+						ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum
+						lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum
+					</p>
+				</div>
 			</div>
 		</div>
 	);

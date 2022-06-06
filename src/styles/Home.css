@@ -6,15 +6,8 @@
 	animation: flipdown 0.5s ease both;
 }
 
-.container {
-	min-height: calc(100vh - 50px);
-	margin-top: 50px;
-
-	display: flex;
-}
-
 .child {
-	margin: auto;
+	margin: 0 auto;
 	max-width: 600px;
 }
 

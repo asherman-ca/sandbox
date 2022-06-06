@@ -3,7 +3,7 @@ const Buttons = () => {
 		<div className='container'>
 			<div className='buttons'>
 				<div className='button'>
-					click
+					Button Text
 					<div className='button-bg'></div>
 				</div>
 			</div>

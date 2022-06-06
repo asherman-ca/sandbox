@@ -10,11 +10,10 @@
 .button {
 	display: flex;
 
-	padding: 0.75rem 1.5rem;
+	padding: 0.75rem;
 	/* background-color: white; */
 	color: black;
-	border: 1px solid black;
-	border-radius: 0.25rem;
+	border: 2px solid black;
 
 	position: relative;
 }
@@ -45,7 +44,22 @@
 
 .button:hover .button-bg {
 	visibility: initial;
-	animation: buttonSlide 0.1s ease-in;
+	animation: buttonSlide 0.2s ease;
+}
+
+.button:not(:hover) .button-bg {
+	animation: buttonSlideOut 0.1s ease;
+}
+
+@keyframes buttonSlideOut {
+	0% {
+		visibility: initial;
+		width: 100%;
+	}
+	100% {
+		visibility: hidden;
+		width: 0%;
+	}
 }
 
 @keyframes buttonSlide {

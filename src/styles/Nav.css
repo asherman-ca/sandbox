@@ -1,0 +1,23 @@
+.nav {
+	position: absolute;
+	top: 0;
+	height: 50px;
+	width: 100%;
+
+	display: flex;
+	align-items: center;
+}
+
+.nav-container {
+	width: 90%;
+	max-width: 900px;
+	margin: 0 auto;
+
+	display: flex;
+	justify-content: space-between;
+}
+
+.nav .links {
+	display: flex;
+	gap: 1rem;
+}

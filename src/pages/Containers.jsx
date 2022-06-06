@@ -1,6 +1,6 @@
-const Home = () => {
+const Containers = () => {
 	return (
-		<div className='home-container'>
+		<div className='container'>
 			<div className='child'>
 				<div className='accord'>
 					<input type='checkbox' defaultChecked />
@@ -17,7 +17,7 @@ const Home = () => {
 	);
 };
 
-export default Home;
+export default Containers;
 
 {
 	/* <div>

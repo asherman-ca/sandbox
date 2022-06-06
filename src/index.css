@@ -14,6 +14,11 @@ body {
 	box-sizing: border-box;
 }
 
+a {
+	text-decoration: initial;
+	color: initial;
+}
+
 :root {
 	--clr-green: #82d318;
 	--alt-green: #cbff00;

@@ -1,7 +1,5 @@
 .nav {
-	/* position: absolute;
-	top: 0; */
-	height: 50px;
+	padding: 1rem 0;
 	width: 100%;
 
 	display: flex;

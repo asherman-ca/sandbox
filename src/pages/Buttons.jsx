@@ -6,13 +6,13 @@ const Buttons = () => {
 			<div className='buttons'>
 				<div className='section'>
 					<SlideButton>Button Text</SlideButton>
-					<div className='clipper-container'>
+					{/* <div className='clipper-container'>
 						<div className='thing'>thing</div>
 						<div className='clipper'>
 							clipperclappper
-							{/* <div>clipper clappper</div> */}
+							<div>clipper clappper</div>
 						</div>
-					</div>
+					</div> */}
 				</div>
 			</div>
 		</div>

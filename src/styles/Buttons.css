@@ -32,14 +32,16 @@
 	left: 0;
 	height: 100%;
 	width: 100%;
-	z-index: -1;
 	visibility: hidden;
+	overflow-x: clip;
+	white-space: nowrap;
+	color: white;
 
 	background-color: black;
 }
 
-.button:hover {
-	color: white;
+.button-bg > div {
+	padding: 0.75rem;
 }
 
 .button:hover .button-bg {

@@ -13,17 +13,27 @@
 	flex-direction: column;
 }
 
+.button-container {
+	padding: 1px;
+	border: 0.25px solid black;
+	border-radius: 0.25rem;
+	background-color: var(--clr-chrome);
+	box-shadow: var(--shadow-smallest);
+}
+
 .button {
 	display: flex;
 	position: relative;
+	padding: 0.75rem 1.5rem;
 
-	cursor: pointer;
-	padding: 0.75rem;
-	color: black;
-	border: 2.5px solid black;
+	border: 0.25px solid black;
 	border-radius: 0.25rem;
 
+	cursor: pointer;
 	font-weight: 500;
+
+	color: white;
+	background-color: black;
 }
 
 .button-bg {
@@ -35,13 +45,14 @@
 	visibility: hidden;
 	overflow-x: clip;
 	white-space: nowrap;
-	color: white;
 
-	background-color: black;
+	border-radius: 0.25rem;
+	color: black;
+	background-color: white;
 }
 
 .button-bg > div {
-	padding: 0.75rem;
+	padding: 0.75rem 1.5rem;
 }
 
 .button:hover .button-bg {

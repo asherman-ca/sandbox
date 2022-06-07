@@ -13,27 +13,16 @@
 	flex-direction: column;
 }
 
-.button-container {
-	padding: 1px;
-	border: 0.25px solid black;
-	border-radius: 0.25rem;
-	background-color: var(--clr-chrome);
-	box-shadow: var(--shadow-smallest);
-}
-
 .button {
 	display: flex;
 	position: relative;
-	padding: 0.75rem 1.5rem;
+	padding: 0.75rem 1rem;
+	border: 2.5px solid black;
 
-	border: 0.25px solid black;
-	border-radius: 0.25rem;
-
-	cursor: pointer;
 	font-weight: 500;
-
-	color: white;
-	background-color: black;
+	cursor: pointer;
+	background-color: white;
+	color: black;
 }
 
 .button-bg {
@@ -46,13 +35,12 @@
 	overflow-x: clip;
 	white-space: nowrap;
 
-	border-radius: 0.25rem;
-	color: black;
-	background-color: white;
+	color: white;
+	background-color: black;
 }
 
 .button-bg > div {
-	padding: 0.75rem 1.5rem;
+	padding: 0.75rem 1rem;
 }
 
 .button:hover .button-bg {

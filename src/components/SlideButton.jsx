@@ -5,7 +5,6 @@ const SlideButton = ({ children }) => {
 		<div className='button'>
 			{children}
 			<div className='button-bg'>
-				{/* <div className='button-text'>{children}</div> */}
 				<div>{children}</div>
 			</div>
 		</div>

@@ -72,36 +72,3 @@
 		width: 100%;
 	}
 }
-
-.clipper-container {
-	/* width: 300px; */
-}
-
-.clipper {
-	width: 100%;
-	background-color: red;
-	overflow-x: clip;
-
-	visibility: hidden;
-	/* text-overflow: clip; */
-}
-
-/* .clipper:hover {
-	animation: clipframe 1s ease;
-	width: 100%;
-} */
-
-.thing:hover + .clipper {
-	animation: clipframe 1s ease;
-	visibility: initial;
-	/* width: 100%; */
-}
-
-@keyframes clipframe {
-	0% {
-		width: 0%;
-	}
-	100% {
-		width: 100%;
-	}
-}

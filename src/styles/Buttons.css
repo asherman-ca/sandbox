@@ -50,6 +50,10 @@
 
 .button:not(:hover) .button-bg {
 	animation: buttonSlideOut 0.2s ease;
+
+	/* prevents effect on page load */
+	opacity: 0;
+	transition: opacity 1s ease-in;
 }
 
 @keyframes buttonSlideOut {

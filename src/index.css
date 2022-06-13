@@ -2,6 +2,7 @@
 @import './styles/Home.css';
 @import './styles/Nav.css';
 @import './styles/Buttons.css';
+@import './styles/Spinners.css';
 
 body {
 	margin: 0;

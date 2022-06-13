@@ -12,6 +12,9 @@ const Nav = () => {
 					<Link to={'/buttons'}>
 						<div>Buttons</div>
 					</Link>
+					<Link to={'/spinners'}>
+						<div>Spinners</div>
+					</Link>
 				</div>
 			</div>
 		</div>

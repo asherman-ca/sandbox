@@ -5,18 +5,27 @@
 
 body {
 	margin: 0;
+	font-family: 'Ubuntu', sans-serif;
 	-webkit-font-smoothing: antialiased;
 	-moz-osx-font-smoothing: grayscale;
 }
 
-* {
-	font-family: 'Ubuntu', sans-serif;
+*,
+*::before,
+*::after {
 	box-sizing: border-box;
 }
 
 a {
 	text-decoration: initial;
 	color: initial;
+}
+
+select,
+input,
+button,
+textarea {
+	font: inherit;
 }
 
 :root {

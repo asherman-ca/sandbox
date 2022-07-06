@@ -3,6 +3,7 @@
 @import './styles/Nav.css';
 @import './styles/Buttons.css';
 @import './styles/Spinners.css';
+@import './styles/Headers.css';
 
 body {
 	margin: 0;

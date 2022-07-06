@@ -5,6 +5,8 @@ import Buttons from './pages/Buttons';
 import Nav from './components/Nav';
 import Spinners from './pages/Spinners';
 import Layouts from './pages/Layouts';
+import Headers from './pages/Headers';
+import Forms from './pages/Forms';
 
 function App() {
 	return (
@@ -15,6 +17,8 @@ function App() {
 				<Route path='/buttons' element={<Buttons />} />
 				<Route path='/spinners' element={<Spinners />} />
 				<Route path='/layouts' element={<Layouts />} />
+				<Route path='/Headers' element={<Headers />} />
+				<Route path='/Forms' element={<Forms />} />
 			</Routes>
 		</Router>
 	);

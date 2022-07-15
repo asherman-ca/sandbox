@@ -38,12 +38,19 @@ const Flipper = ({ counter, updated }) => {
 
 	useEffect(() => {
 		// let startNum = displayNum;
-		if (updatedNum > displayNum) {
-			setTimeout(
-				setDisplayNum((prev) => prev + 1),
-				1000
-			);
-		}
+		// if (updatedNum > displayNum) {
+		// 	setTimeout(
+		// 		setDisplayNum((prev) => prev + 1),
+		// 		1000
+		// 	);
+		// }
+		const timer = setTimeout(() => {
+			console.log('This will run after 1 second!');
+			if (updatedNum > displayNum) {
+				setDisplayNum((prev) => prev + 1);
+			}
+		}, 1000);
+		return () => clearTimeout(timer);
 	}, [updatedNum, counter, displayNum]);
 
 	console.log('displayNum', displayNum);

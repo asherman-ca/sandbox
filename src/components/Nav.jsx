@@ -15,6 +15,9 @@ const Nav = () => {
 					<Link to={'/spinners'}>
 						<div>Spinners</div>
 					</Link>
+					<Link to={'/numbers'}>
+						<div>Numbers</div>
+					</Link>
 				</div>
 			</div>
 		</div>

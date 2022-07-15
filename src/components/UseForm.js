@@ -10,6 +10,7 @@ export const useForm = (options) => {
 			...data,
 			[key]: value,
 		});
+		console.log('data', data);
 	};
 
 	const handleSubmit = async (e) => {

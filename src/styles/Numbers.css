@@ -1,7 +1,19 @@
 .numbers {
 	width: 100%;
 	max-width: 900px;
-	margin: 0 auto;
+	margin: 3rem auto;
 
 	display: flex;
+	flex-direction: column;
+	align-items: center;
+	gap: 1rem;
+}
+
+.numbers > div {
+	display: flex;
+	flex-direction: row;
+}
+
+.numbers > div:first-child {
+	gap: 1rem;
 }

@@ -2,18 +2,26 @@ import React, { useState } from 'react';
 import Flipper from '../components/Flipper';
 
 const Numbers = () => {
-	const [counter, setCounter] = useState(10);
+	const [counter, setCounter] = useState(0);
 
 	const handleClick = () => {
-		// console.log('hits');
-		setCounter((prev) => prev + 20);
+		setCounter((prev) => prev + 50);
+	};
+
+	const handleDec = () => {
+		setCounter((prev) => prev - 50);
 	};
 
 	return (
 		<div className='container'>
 			<div className='numbers'>
-				<div onClick={handleClick} className='clicker'>
-					clicker
+				<div>
+					<button onClick={handleClick} className='clicker'>
+						Increment
+					</button>
+					<button onClick={handleDec} className='clicker'>
+						Decrement
+					</button>
 				</div>
 				<Flipper counter={counter} />
 			</div>
